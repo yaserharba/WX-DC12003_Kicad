@@ -1,0 +1,272 @@
+(footprint "WX-DC12003"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0508 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a2bdf400-896e-4fad-897d-9f8011577e0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "WX-DC12003"
+		(at 0.1016 -0.3716 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4cd5b329-94db-4e8f-b384-d8962a6ce998")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "WX-DC12003:WX-DC12003"
+		(at 0.1016 -1.3716 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9163dab-c07b-4727-b9f7-958d77679258")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.skytech.ir/DownLoad/File/8778_WX-DC12003.pdf"
+		(at 0.1016 -1.3716 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed5d6211-b344-479d-a69e-5be15e13627e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "AC-DC 5V 700mA 12V 300mA 3.5W Isolated Switch Power Supply module"
+		(at 0.1016 -1.3716 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3641fceb-7963-48ed-98ad-09f62138787c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -11.75 -8)
+		(end 11.75 8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f326d048-b149-4eb6-b99e-18cbfb21fd0c")
+	)
+	(fp_rect
+		(start -10.85 8)
+		(end -6.25 10.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "23f5dfbb-4b68-448c-9303-40b510a1054c")
+	)
+	(fp_rect
+		(start 4.25 8)
+		(end 7.05 10.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b82fce9b-85bb-403d-8ea8-9886079cba28")
+	)
+	(fp_rect
+		(start 8.85 8)
+		(end 11.75 10.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a7852d6a-af73-47c9-9f62-d00ee5230b35")
+	)
+	(fp_line
+		(start -11.938 -8.128)
+		(end -11.938 10.922)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "338067ee-36c3-4ee8-b062-9b8b56cb8099")
+	)
+	(fp_line
+		(start -11.938 10.922)
+		(end -5.4356 10.922)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b7543e5-f97f-47d5-ae82-2657f04201fe")
+	)
+	(fp_line
+		(start -5.4356 8.1788)
+		(end 4.1148 8.1788)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "908d0b52-fec5-4b90-b03c-77ce808d0192")
+	)
+	(fp_line
+		(start -5.4356 10.922)
+		(end -5.4356 8.1788)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5c6044e-e151-4a6e-9133-f35bb390da2b")
+	)
+	(fp_line
+		(start 4.1148 8.1788)
+		(end 4.1148 10.922)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9bb4d4e-cf86-47ca-8a7f-eed0de040f4a")
+	)
+	(fp_line
+		(start 4.1148 10.922)
+		(end 11.938 10.922)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5010c8af-93b1-494a-b396-4d595a082fc4")
+	)
+	(fp_line
+		(start 11.938 -8.128)
+		(end -11.938 -8.128)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9058de58-08de-4c27-9e79-a515c7eededa")
+	)
+	(fp_line
+		(start 11.938 10.922)
+		(end 11.938 -8.128)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd9775c2-4224-4553-9049-76710a1ec9fb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1016 1.1284 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a51b580d-7c02-46dc-ba08-466855f20b1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 10.48 9.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b62318ea-66e1-419c-b773-a27050eb5b45")
+	)
+	(pad "2" thru_hole rect
+		(at 5.4 9.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8f048d6b-b9a3-4d6e-9d40-8806373130cd")
+	)
+	(pad "3" thru_hole rect
+		(at -7.3 9.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3531a550-71c8-42b9-9a68-8ff993a063cb")
+	)
+	(pad "4" thru_hole rect
+		(at -9.84 9.5)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "99cc6f06-cdbd-48e1-b93b-728627df0ee4")
+	)
+	(model "C:/Users/Lenovo/Documents/KiCad/8.0/footprints/WX-DC12003.pretty/WX-DC12003.step"
+		(offset
+			(xyz 12.7 8.8 1.54)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model "C:/Users/Lenovo/Documents/KiCad/8.0/footprints/WX-DC12003.pretty/2-Pin Header - Male - 2.54mm.step"
+		(offset
+			(xyz -7.33 -9.5 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+	(model "C:/Users/Lenovo/Documents/KiCad/8.0/footprints/WX-DC12003.pretty/3-Pin Header - Male - 2.54mm.step"
+		(offset
+			(xyz 5.4 -9.5 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)
